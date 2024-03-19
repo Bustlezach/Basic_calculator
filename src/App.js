@@ -86,7 +86,7 @@ function Calculator() {
       <CalButton val='7' onClick={handleNumber} />
       <CalButton val='8' onClick={handleNumber} />
       <CalButton val='9' onClick={handleNumber} />
-      <CalButton className='operator' val='/' onClick={handleNumber}/>
+      <CalButton className='operator' val='/' onClick={handleOperator}/>
       <CalButton val='4' onClick={handleNumber} />
       <CalButton val='5' onClick={handleNumber} />
       <CalButton val='6' onClick={handleNumber} />
